@@ -2,11 +2,21 @@
 <html lang="en">
     <head>
         <title>Search</title>
+		<link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+		<div id="redirect">
+			<a href="image.html">Image Search</a><p>
+			<a href="advanced.html">Advanced Search</a>
+		</div>
+		<div id="main">
+			<h1>Gulagle</h1>
+			<form action="https://google.com/search">
+				<input type="text" name="q">
+				<p>
+				<input type="submit" value="Search the Gulag">	
+				<input type="submit" name="btnI" value="Escape the Gulag" data-ved="0ahUKEwij4PqszfXzAhUpzTgGHdRtBToQ19QECAw">
+			</form>
+		</div>
     </body>
 </html>
