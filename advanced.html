@@ -11,10 +11,11 @@
 		<div id="main">
 			<h1>Advanced Gulagle</h1>
 			<form action="https://google.com/search">
-				<input type="text" name="q">
-				<p>
-				<input type="submit" value="Search the Gulag">	
-				<input type="submit" name="btnI" value="Escape the Gulag" data-ved="0ahUKEwij4PqszfXzAhUpzTgGHdRtBToQ19QECAw">
+				<label for="include_all">Include all:</label> <input type="text" id="include_all" name="as_q"><br>
+				<label for="exact">Exact phrase:</label> <input type="text" id="exact" name="as_epq"><br>
+				<label for="include_or">Include either:</label> <input type="text" id="include_or" name="as_oq"><br>
+				<label for="exclude_all">Exclude all:</label> <input type="text" id="exclude_all" name="as_eq"><br>
+				<input type="submit" value="Search the Gulag">
 			</form>
 		</div>
     </body>
